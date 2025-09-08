@@ -29,6 +29,7 @@ VITE_SQUID_APP_ID=your_app_id_here
 VITE_SQUID_REGION=your_region_here
 VITE_SQUID_ENVIRONMENT_ID=your_environment_id_here
 VITE_SQUID_DEVELOPER_ID=your_developer_id_here
+VITE_SQUID_AI_AGENT_ID=your_ai_agent_id_here
 ```
 
 **Important**: Replace the placeholder values with your actual Squid Cloud credentials:
@@ -36,6 +37,7 @@ VITE_SQUID_DEVELOPER_ID=your_developer_id_here
 - `VITE_SQUID_REGION`: Your Squid region (e.g., `us-east-1.aws`)
 - `VITE_SQUID_ENVIRONMENT_ID`: Your environment ID (e.g., `dev` or `prod`)
 - `VITE_SQUID_DEVELOPER_ID`: Your Squid developer ID
+- `VITE_SQUID_AI_AGENT_ID`: Your AI agent ID for the chat widget
 
 4. Start the development server:
 ```bash

@@ -18,7 +18,7 @@ const ChatWidget = () => {
     squid-region={import.meta.env.VITE_SQUID_REGION}
     squid-environment-id={import.meta.env.VITE_SQUID_ENVIRONMENT_ID}
     squid-ai-integration-id="ai_agents"
-    squid-ai-agent-id="agent3"
+    squid-ai-agent-id={import.meta.env.VITE_SQUID_AI_AGENT_ID}
     header-title="Test AI Agent"
     chain-of-thought="true"
     open-on-load="true"
