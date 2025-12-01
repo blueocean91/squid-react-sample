@@ -10,7 +10,6 @@ A sample React application demonstrating integration with Squid AI chat widget u
 
 ## Setup
 0. Set Agent to 'Public':
-
 From Agent Studio, Agent Settings -> Set Agent to Public
 
 1. Clone the repository:
@@ -42,7 +41,6 @@ VITE_SQUID_AI_AGENT_ID=your_ai_agent_id_here
 - `VITE_SQUID_DEVELOPER_ID`: Your Squid developer ID
 - `VITE_SQUID_AI_AGENT_ID`: Your AI agent ID for the chat widget
 
-** make sure your Agent is 'public' **
 
 4. Start the development server:
 ```bash
