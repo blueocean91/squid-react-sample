@@ -39,6 +39,8 @@ VITE_SQUID_AI_AGENT_ID=your_ai_agent_id_here
 - `VITE_SQUID_DEVELOPER_ID`: Your Squid developer ID
 - `VITE_SQUID_AI_AGENT_ID`: Your AI agent ID for the chat widget
 
+** make sure your Agent is 'public' **
+
 4. Start the development server:
 ```bash
 npm run dev
@@ -81,3 +83,9 @@ This project uses Vite's environment variable system. All environment variables 
 - [Squid Cloud Documentation](https://docs.getsquid.ai/)
 - [Vite Documentation](https://vitejs.dev/)
 - [React Documentation](https://react.dev/)
+
+## Troubleshooting
+
+- If you encounter the following error, please ensure that your Agent settings are set to 'Public'.
+
+```Ooops, something went wrong with your request. Please try again. Error details: Security rules required!```
