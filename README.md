@@ -9,6 +9,9 @@ A sample React application demonstrating integration with Squid AI chat widget u
 - Squid Cloud account
 
 ## Setup
+0. Set Agent to 'Public':
+
+From Agent Studio, Agent Settings -> Set Agent to Public
 
 1. Clone the repository:
 ```bash
