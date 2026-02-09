@@ -23,16 +23,14 @@ cd squid-react-sample
 npm install
 ```
 
-3. Create environment variables file:
-Create a `.env` file in the root directory and add your Squid configuration:
+3. Configure Environment Variables:
+Create a `.env` file in the root directory based on the `.env.example` template:
 
-```env
-VITE_SQUID_APP_ID=your_app_id_here
-VITE_SQUID_REGION=your_region_here
-VITE_SQUID_ENVIRONMENT_ID=your_environment_id_here
-VITE_SQUID_DEVELOPER_ID=your_developer_id_here
-VITE_SQUID_AI_AGENT_ID=your_ai_agent_id_here
+```bash
+cp .env.example .env
 ```
+
+Open the `.env` file and replace the placeholder values with your actual Squid Cloud credentials:
 
 **Important**: Replace the placeholder values with your actual Squid Cloud credentials:
 - `VITE_SQUID_APP_ID`: Your Squid application ID
